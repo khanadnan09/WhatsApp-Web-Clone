@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- style.css -->
+  <link rel="stylesheet" href="CSS\style.css" />
+  <!-- responsive.css -->
+  <link rel="stylesheet" href="CSS\responsive.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="CSS\bootstrap.min.css" />
+  <title>Whatsapp web.com</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 top_gradient_behind">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+          <path fill="#00E676"
+            d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z">
+          </path>
+          <path fill="#FFF"
+            d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z">
+          </path>
+        </svg>
+        <span>Whatsapp Web</span>
+      </div>
+      <div class="col-12 other_behind d-flex justify-content-center">
+        <div class="main_window col-lg-11 row" style="overflow: hidden;">
+          <div class="col-lg-4 p-0 position-relative left_side">
+
+            <div class="col-12 top_left_header d-flex justify-content-between">
+              <img src="IMAGES/ps4.jpg" alt="" class="uesr_top_left_header">
+              <ul class="top_left_header_ul d-flex align-items-center">
+                <li>
+                  <svg version="1.1" id="df9d3429-f0ef-48b5-b5eb-f9d27b2deba6" x="0" y="0" viewBox="0 0 24 24"
+                    width="24" height="24" class="">
+                    <path fill="currentColor"
+                      d="M12.072 1.761a10.05 10.05 0 0 0-9.303 5.65.977.977 0 0 0 1.756.855 8.098 8.098 0 0 1 7.496-4.553.977.977 0 1 0 .051-1.952zM1.926 13.64a10.052 10.052 0 0 0 7.461 7.925.977.977 0 0 0 .471-1.895 8.097 8.097 0 0 1-6.012-6.386.977.977 0 0 0-1.92.356zm13.729 7.454a10.053 10.053 0 0 0 6.201-8.946.976.976 0 1 0-1.951-.081v.014a8.097 8.097 0 0 1-4.997 7.209.977.977 0 0 0 .727 1.813l.02-.009z">
+                    </path>
+                    <path fill="#009588" d="M19 1.5a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"></path>
+                  </svg>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" width="24" height="24" type="button" onclick="openNav()">
+                    <path fill="currentColor"
+                      d="M19.005 3.175H4.674C3.642 3.175 3 3.789 3 4.821V21.02l3.544-3.514h12.461c1.033 0 2.064-1.06 2.064-2.093V4.821c-.001-1.032-1.032-1.646-2.064-1.646zm-4.989 9.869H7.041V11.1h6.975v1.944zm3-4H7.041V7.1h9.975v1.944z">
+                    </path>
+                  </svg>
+                  <!-- New chat or all contacts -->
+                  <div id="mySidepanel" class="sidepanel">
+                    <div class="header_all_contacts d-flex align-items-center text-white sticky-top">
+                      <ion-icon name="arrow-back-sharp" onclick="closeNav()"></ion-icon>
+                      <span>New chat</span>
+                    </div>
+
+                    <div class="searchBar search_contacts sticky-top" style="top: 65.5px;">
+                      <ion-icon name="search-outline" role="img" class="md hydrated fs-6 text-dark"
+                        aria-label="search outline"></ion-icon><input type="text" placeholder="Search contacts">
+                    </div>
+                    <div class="contact d-flex align-items-center">
+                      <ion-icon name="people"></ion-icon>
+                      <span class="flex-grow-1 name_contact">New group</span>
+                    </div>
+                    <div class="letter text-capitalize my-2" style="padding-left: 36px;">a</div>
+                    <!-- #contact 1 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps13.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Andrew</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facere commodi, iure
+                            assumenda
+                            porro maxime ea nam delectus? Error culpa dolor consequatur quos sapiente
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 2 -->
+                    <div class="single_contact onclick mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps14.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Aaron</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor..
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 3 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps15.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Ahmed</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet..
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="letter text-capitalize my-2" style="padding-left: 36px;">c</div>
+                    <!-- #contact 4 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps2.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Christian</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 5 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps16.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Ciarrah</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="letter text-capitalize my-2" style="padding-left: 36px;">E</div>
+                    <!-- #contact 6 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps12.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Eimaan</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 7 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps9.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Eliza</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="letter text-capitalize my-2" style="padding-left: 36px;">n</div>
+                    <!-- #contact 8 -->
+                    <div class="single_contact mt-2 contact d-flex align-items-center" onclick="openChat()" style="padding-left: 20px;">
+                      <ion-icon name="person"style="background-color: #dfe5e7;"></ion-icon>
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Nelson</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 9 -->
+                    <div class="single_contact mt-2 contact d-flex align-items-center" onclick="openChat()" style="padding-left: 20px;">
+                      <ion-icon name="person"style="background-color: #dfe5e7;"></ion-icon>
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Nels</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="letter text-capitalize my-2" style="padding-left: 36px;">y</div>
+                    <!-- #contact 10 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps7.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Yuna</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 11 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps11.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Yuvleen</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="letter text-capitalize my-2" style="padding-left: 36px;">z</div>
+                    <!-- #contact 12 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps3.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Zolene</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- #contact 13 -->
+                    <div class="single_contact mt-2" onclick="openChat()" style="padding-left: 20px;">
+                      <img src="IMAGES/ps5.jpg" alt="">
+                      <div class="wraper_user_text flex-grow-1 name_contact border-0">
+                        <span class="user_name">Zaydan</span>
+                        <span class="user_sm_msg d-flex justify-content-between">
+                          <span class="text-truncate">
+                            Lorem ipsum dolor sit amet.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="position-relative" style="cursor: pointer;">
+                  <ion-icon name="ellipsis-vertical" class="dropdown_options"></ion-icon>
+                  <ul class="dropdown_options_ul">
+                    <li>New group</li>
+                    <li>Archived</li>
+                    <li>Starred messages</li>
+                    <li>Settings</li>
+                    <li>Log out</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- search bar -->
+            <div class="col-12 searchBar">
+              <ion-icon name="search-outline"></ion-icon><input type="text" placeholder="Search or start new chat">
+            </div>
+            <!-- contacts list in left -->
+            <div class="col-12 contacts_container">
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps1.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">John Smith <span class="time">12:23 pm</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">can you help me for project.
+                    <span class="msg_count">11</span>
+                  </span>
+                </div>
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps3.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Isabella <span class="time">10:03 am</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="icon_text d-flex">
+                      <ion-icon name="camera"></ion-icon>
+                      Photo
+                    </span>
+                    <span class="msg_count">3</span>
+                  </span>
+                </div>
+
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps5.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Freddie <span class="time">Wednesday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="icon_text d-flex">
+                      <ion-icon name="checkmark-done-sharp" class="checked"></ion-icon>
+                      <ion-icon name="camera"></ion-icon>
+                      Photo
+                    </span>
+                  </span>
+                </div>
+
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps7.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Elizabeth <span class="time">yesterday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facere commodi, iure assumenda
+                      porro maxime ea nam delectus? Error culpa dolor consequatur quos sapiente
+                    </span>
+                    <span class="msg_count">1</span>
+                  </span>
+                </div>
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps6.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Waylon <span class="time">Friday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facere commodi, iure assumenda
+                      porro maxime ea nam delectus? Error culpa dolor consequatur quos sapiente
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps2.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Christian <span class="time">today</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Lorem ipsum dolor sit amet.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps9.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Sophia <span class="time">7:30 am</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="icon_text d-flex">
+                      <ion-icon name="checkmark-done-sharp" class="checked"></ion-icon>
+                      <ion-icon name="videocam-sharp"></ion-icon>
+                      Video
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps10.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Luna <span class="time">Friday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Thanks 😊😊😊
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps12.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Aamira <span class="time">7:00 pm</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="icon_text d-flex">
+                      <ion-icon name="checkmark-done-sharp" class="checked"></ion-icon>
+                      <ion-icon name="mic"></ion-icon>
+                      2:30
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps11.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Amelia <span class="time">6:22 pm</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facere commodi, iure assumenda
+                      porro maxime ea nam delectus? Error culpa dolor consequatur quos sapiente
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+               <!--single contact  -->
+               <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps16.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Freddie <span class="time">Wednesday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="icon_text d-flex">
+                      <ion-icon name="checkmark-done-sharp" class="checked"></ion-icon>
+                      <ion-icon name="camera"></ion-icon>
+                      Photo
+                    </span>
+                  </span>
+                </div>
+
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps14.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Elizabeth <span class="time">yesterday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Lorem, ipsum dolor.
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+              <!--single contact  -->
+              <div class="col-12 single_contact" onclick="openChat()">
+                <img src="IMAGES/ps13.jpg" alt="">
+
+                <div class="wraper_user_text">
+                  <span class="user_name">Elizabeth <span class="time">yesterday</span> </span>
+                  <span class="user_sm_msg d-flex justify-content-between">
+                    <span class="text-truncate">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-auto flex-grow-1 right-col-8" id="right_SIDE">
+            <div class="col-12 right-col-12">
+
+              <!-- top right header -->
+              <div class="col-12 top_left_header d-flex justify-content-between" style="padding: 7.5px 16px;">
+                <div class="user_wraper d-flex align-items-center">
+                  <ion-icon name="arrow-back-outline" class="hide_show" onclick="closeChat()" style="position: relative;left: -10px;display: none;cursor: pointer;"></ion-icon>
+                  <img src="IMAGES/ps8.jpg" alt="" class="uesr_top_left_header" onclick="openInfoUser()"
+                    style="cursor: pointer;">
+                  <div class="text_info_wrapper ps-2">
+                    <span class="user_name">Robert</span>
+                    <span class="user_sm_msg position-relative" style="top:-5px;">last seen today at 3:32 pm</span>
+                  </div>
+                </div>
+                <ul class="top_left_header_ul d-flex align-items-center">
+                  <li class="me-1">
+                    <ion-icon name="search"></ion-icon>
+                  </li>
+                  <li class="position-relative" style="cursor: pointer;">
+                    <ion-icon name="ellipsis-vertical" class="dropdown_options"></ion-icon>
+                    <ul class="dropdown_options_ul">
+                      <li>Contact info</li>
+                      <li>Select message</li>
+                      <li>Close chat</li>
+                      <li>Mute notifications</li>
+                      <li>Clear message</li>
+                      <li>Delete chat</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- chat area -->
+              <div class="col-12">
+                <div class="chat_area">
+
+                  <div class="col-12 mesages_chat position-relative">
+                    <div class="day">8 may 2022</div>
+                    <div class="send_msg">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur sequi
+                      magnam!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <div class="time_in_chat">9:26am</div>
+                    </div>
+
+                    <div class="recive_msg">Lorem ipsum dolor sit amet..
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">9:30am</span>
+                    </div>
+
+                    <div class="recive_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. <ion-icon
+                        name="chevron-down-outline" class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">1:30pm</span>
+                    </div>
+
+                    <div class="recive_msg">Lorem ipsum dolor sit amet. <ion-icon name="chevron-down-outline"
+                        class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">1:36pm</span>
+                    </div>
+
+                    <div class="day">19 may 2022</div>
+
+                    <div class="send_msg">Lorem ipsum dolor sit.!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">1:41pm</span>
+                    </div>
+                    <div class="send_msg">Lorem ipsum dolor sit amet consectetur adipisicing.
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">10:05pm</span>
+                    </div>
+
+                    <div class="recive_msg">Lorem ipsum dolor sit amet. <ion-icon name="chevron-down-outline"
+                        class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">11:14pm</span>
+                    </div>
+
+                    <div class="send_msg">Lorem ipsum dolor sit.!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">8:14am</span>
+                    </div>
+
+                    <div class="send_msg">Lorem ipsum dolor sit.!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">8:23am</span>
+                    </div>
+                    <div class="send_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur
+                      sequi magnam!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">9:00am</span>
+                    </div>
+                    <div class="day">today</div>
+                    <div class="recive_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">9:26am</span>
+                    </div>
+                    <div class="send_msg">Lorem ipsum dolor sit.!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">9:56am</span>
+                    </div>
+                    <div class="send_msg">Lorem ipsum dolor sit.!
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">1:41pm</span>
+                    </div>
+                    <div class="send_msg">Lorem ipsum dolor sit amet consectetur adipisicing.
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">10:05pm</span>
+                    </div>
+                    <div class="recive_msg">Lorem ipsum dolor sit amet. <ion-icon name="chevron-down-outline"
+                        class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">11:14pm</span>
+                    </div>
+                    <div class="recive_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+                      molestiae magnam blanditiis optio nostrum sed minima? Dolorem, autem voluptas suscipit impedit
+                      magni dolorum quae odit eaque esse, obcaecati reprehenderit quia commodi fugiat maiores quod
+                      asperiores laborum consequatur? Quae, eum culpa.
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat"></ion-icon>
+                      <ul class="action_dropdown_chat">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">11:14pm</span>
+                    </div>
+
+                    <div class="send_msg">Lorem ipsum dolor sit amet.
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">11:14pm</span>
+                    </div>
+                    <div class="send_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus
+                      dolor nulla cumque et.
+                      <ion-icon name="chevron-down-outline" class="dropdown_icon_chat right_i"></ion-icon>
+                      <ul class="action_dropdown_chat right_drop">
+                        <li>Reply</li>
+                        <li>Forward message</li>
+                        <li>Star message</li>
+                        <li>Delete message</li>
+                      </ul>
+                      <span class="time_in_chat">11:14pm</span>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- send messge -->
+              <div class="col-12 top_left_header d-flex align-items-center"
+                style="padding: 7.5px 16px;background-color: #f0f2f5;">
+                <div class="input_before_icons d-flex align-items-center">
+                  <ion-icon name="happy-outline"></ion-icon>
+                  <ion-icon name="attach-outline"></ion-icon>
+                </div>
+                <input type="text" placeholder="Type a message" class="chat_box">
+
+                <ion-icon name="mic" class="micIcon"></ion-icon>
+
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="col-auto p-0 contact_INFO" id="mySidenav"
+            style="width: 0;background-color: #f0f2f5;overflow-y: auto;height: 90vh;">
+
+            <div class="col-12 top_left_header d-flex align-items-center sticky-top"
+              style="padding: 17.5px 16px; border-left: 1px solid #e1e1e1;">
+              <ion-icon name="close" class="pe-3" onclick="closeInfoUser()" style="font-size: 21px;cursor: pointer;">
+              </ion-icon>
+              <span class="info_headig_user">
+                Contact info
+              </span>
+            </div>
+
+            <div class="col-12 user_card d-flex align-items-center flex-column bg-white pt-4 pb-2 mb-2">
+              <img src="IMAGES/ps8.jpg" alt="" class="lg_user_img">
+              <div class="user_lg_name">Robert</div>
+              <div class="user_number">+91 98798 65127</div>
+            </div>
+
+            <div class="col-12 user_card bg-white pt-2 pb-2 mb-2 px-4">
+              <div style="color: #535a60;font-size: 11px;font-weight: 500;">About</div>
+              <div class="user_description mt-1"> "Things work out best for those who make the best of how things work
+                out." --John Wooden</div>
+            </div>
+
+            <div class="col-12 user_card bg-white pt-2 pb-2 mb-2 px-4">
+              <div class="d-flex justify-content-between" style="color: #535a60;font-size: 13px;font-weight: 500;">
+                Media, links and docs
+                <span class="d-flex align-items-center"> 65 <ion-icon name="chevron-forward" class="ps-1"></ion-icon>
+                </span>
+              </div>
+              <div class="d-flex ps-2 mt-1">
+                <img src="IMAGES/ps9.jpg" alt="" class="media_img">
+                <img src="IMAGES/ps11.jpg" alt="" class="media_img">
+                <img src="IMAGES/ps12.jpg" alt="" class="media_img">
+              </div>
+
+              <div class="mt-2" style="color: #535a60;font-size: 11px;font-weight: 500;">
+                Use WhatsApp on your phone to see the complete message history.
+              </div>
+            </div>
+
+            <div class="col-12 d-flex align-items-center user_card bg-white pt-2 pb-2 mb-2 px-4">
+              <ion-icon name="star"></ion-icon>
+              <div class="user_description mt-1 ps-3"> Starred mesages</div>
+              <ion-icon name="chevron-forward" class="ms-auto"></ion-icon>
+            </div>
+
+            <div class="col-12 user_card bg-white pt-2 pb-2 mb-2 px-4">
+              <div class="d-flex align-items-center ">
+                <ion-icon name="notifications"></ion-icon>
+                <div class="user_description mt-1 ps-3"> Mute notifications</div>
+                <div class="form-check form-switch ms-auto">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                </div>
+              </div>
+              <div class="d-flex align-items-center ">
+                <ion-icon name="timer-outline"></ion-icon>
+                <div class="user_description ps-3" style="margin-top: 20px;">Disappearing message
+                  <div style="font-size: 12px;">off</div>
+                </div>
+                <ion-icon name="chevron-forward" class="ms-auto"></ion-icon>
+              </div>
+              <div class="d-flex align-items-center" style="margin-top: -17px;">
+                <ion-icon name="lock-closed"></ion-icon>
+                <div class="user_description ps-3" style="margin-top:33px;">Encription
+                  <div style="font-size: 12px;">Messages are end-to-end encrypted. Click to verify.</div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 user_card bg-white pt-2 pb-2 mb-2 px-4"
+              style="color: red;cursor: pointer;font-weight: 500;">
+              <div class="d-flex align-items-center">
+                <ion-icon name="ban"></ion-icon>
+                <div class="user_description ps-3"> Block Robert</div>
+              </div>
+              <div class="d-flex align-items-center mt-3">
+                <ion-icon name="thumbs-down-sharp"></ion-icon>
+                <div class="user_description ps-3"> Report Robert</div>
+              </div>
+            </div>
+
+            <div class="col-12 user_card bg-white pt-2 pb-2 mb-2 px-4"
+              style="color: red;cursor: pointer;font-weight: 500;">
+              <div class="d-flex align-items-center ">
+                <ion-icon name="trash-sharp"></ion-icon>
+                <div class="user_description ps-3"> Delete chat</div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Bootstrap js -->
+  <script src="JS\bootstrap.bundle.min.js"></script>
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    function openInfoUser() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeInfoUser() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.transform = "translatex(0px)";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidepanel").style.transform = "translatex(-926px)";
+    }
+  </script>
+  <script>
+    function openChat() {
+      document.getElementById("right_SIDE").style.zIndex = "9999";
+      console.log("jhsadj")
+    }
+
+    function closeChat() {
+      document.getElementById("right_SIDE").style.zIndex = "-1";
+    }
+  </script>
+</body>
+
+</html>
